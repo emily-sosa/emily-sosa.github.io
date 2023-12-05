@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0
+}
+body{
+    font-family: "Caprasimo";
+    background-color:#FFF9EA;
+}
+h1{
+    color: #FFF9EA;
+}
+h3{
+    font-size: 30px;
+}
+ul, l, p{
+    font-family: "Noto Sans";
+    line-height: 22px;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+}
+
+
+img[src="../../logos/yellowlego.png"]{
+    width: 70%;
+    height: 70%;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+header{
+    background-color: #FFF9EA;
+    padding: 2em 1em;
+    
+}
+
+
+
+
+/*fullscreen nav*/
+.overlay{
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top:0;
+    background-color:#FFF9EA;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content{
+    position: relative;
+    top:10%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.overlay a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 60px;
+    color: #FFB71A;
+    display: block;
+    transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus{
+    color:#DB7608;
+}
+.overlay .closebtn{
+    position:absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;}
+}
+
+/**********SPRING***********/
+.spring{
+    background-color: #CAFD8F;
+}
+.spring header{
+    background-color: #FFF9E9;
+    border-radius: 0 70px 70px 0;
+    display: flex;
+    flex: row;
+    width: 25%;
+    padding-right: 20em;
+}
+.instructions{
+    background-color: #4E7D19;
+    color: #FFF9E9;
+    padding: 1em 0em 0em 5em;
+    border-radius: 0px 0px 30px 0;
+    border:4px solid #7BC625;
+}
+.instructions2{
+    background-color: #7BC625;
+    color: #3B6011;
+    padding: 2em 6em 2em 3em;
+    font-size: 25px;
+    border-radius: 0px 30px 30px 0;
+    border:4px solid #4E7D19;
+}
+.list{
+    padding-right: 12em;
+    padding-bottom: 2em;
+}
+
+.springtitle1 a{
+    color: #4E7D19;
+    font-size: 80px;
+    width: 90%;
+    padding-left: .25em; 
+    display: inline-block;
+    text-decoration: none;
+}
+.springtitle1 a:hover{
+    color: #7BC625;
+
+}
+.springtitle{
+    background-color: #7BC625;
+    font-size: 100px;
+    padding: .5em .5em;
+    border-radius: 0px 30px 0 0;
+}
+.springtitle2{
+    color: #3B6011;
+    font-size: 100px;
+    padding: .5em .5em;
+    
+}
+.steps{
+    color: #FFF9E9;
+    padding-left: 2em;
+}
+
+h3{
+    padding: 1em;
+}
+.list{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/**********WINTER*************/
+
+.winter{
+    background-color: #E0EAFF;
+}
+.winter header{
+    background-color: #FFF9E9;
+    border-radius: 0 70px 70px 0;
+    display: flex;
+    flex: row;
+    width: 27%;
+    padding-right: 20em;
+}
+.winterinstructions{
+    background-color: #617DB8;
+    color: #FFF9E9;
+    padding: 1em 0em 0em 5em;
+    border-radius: 0px 0px 30px 0;
+    border:4px solid #A4C2FF;
+}
+.winterinstructions2{
+    background-color: #A4C2FF;
+    color: #617DB8;
+    padding: 2em 6em 2em 3em;
+    font-size: 25px;
+    border-radius: 0px 30px 30px 0;
+    border:4px solid #617DB8;
+}
+
+.wintertitle1 a{
+    color: #617DB8;
+    font-size: 80px;
+    width: 90%;
+    padding-left: .25em; 
+    display: inline-block;
+    text-decoration: none;
+}
+.wintertitle1 a:hover{
+    color: #A4C2FF;
+
+}
+.list{
+    padding-right: 12em;
+    padding-bottom: 2em;
+}
+
+
+.wintertitle{
+    background-color: #A4C2FF;
+    font-size: 100px;
+    padding: .5em .5em;
+    border-radius: 0px 30px 0 0;
+}
+
+.wintertitle2{
+    color: #617DB8;
+    font-size: 100px;
+    padding: .5em .5em;
+    
+}
+.steps{
+    color: #FFF9E9;
+    padding-left: 2em;
+}
+
+/*******AUTUMN**********/
+
+.autumn{
+    background-color: #FFD2A0;
+}
+.autumn header{
+    background-color: #FFF9E9;
+    border-radius: 0 70px 70px 0;
+    display: flex;
+    flex: row;
+    width: 30%;
+    padding-right: 20em;
+}
+.autumninstructions{
+    background-color: #DB7608;
+    color: #FFF9E9;
+    padding: 1em 0em 0em 5em;
+    border-radius: 0px 0px 30px 0;
+    border:4px solid #FFB35F;
+}
+.autumninstructions2{
+    background-color: #FFB35F;
+    color: #DB7608;
+    padding: 2em 6em 2em 3em;
+    font-size: 25px;
+    border-radius: 0px 30px 30px 0;
+    border:4px solid #DB7608;
+}
+
+.autumntitle1 a{
+    color: #DB7608;
+    font-size: 80px;
+    width: 90%;
+    padding-left: .25em; 
+    display: inline-block;
+    text-decoration: none;
+}
+.autumntitle1 a:hover{
+    color: #FFB35F;
+
+}
+.list{
+    padding-right: 12em;
+    padding-bottom: 2em;
+}
+
+
+.autumntitle{
+    background-color:#FFB35F;
+    font-size: 100px;
+    padding: .5em .5em;
+    border-radius: 0px 30px 0 0;
+}
+
+.autumntitle2{
+    color: #DB7608;
+    font-size: 100px;
+    padding: .5em .5em;
+    
+}
+.steps{
+    color: #FFF9E9;
+    padding-left: 2em;
+}
+
+/*******SUMMER**********/
+
+.summer{
+    background-color: #FFE3A7;
+}
+.summer header{
+    background-color: #FFF9E9;
+    border-radius: 0 70px 70px 0;
+    display: flex;
+    flex: row;
+    width: 30%;
+    padding-right: 20em;
+}
+.summerinstructions{
+    background-color: #C6890A;
+    color: #FFF9E9;
+    padding: 1em 0em 0em 5em;
+    border-radius: 0px 0px 30px 0;
+    border:4px solid #FFCE64;
+}
+.summerinstructions2{
+    background-color: #FFCE64;
+    color: #C6890A;
+    padding: 2em 6em 2em 3em;
+    font-size: 25px;
+    border-radius: 0px 30px 30px 0;
+    border:4px solid #C6890A;
+}
+
+.summertitle1 a{
+    color: #C6890A;
+    font-size: 80px;
+    width: 90%;
+    padding-left: .25em; 
+    display: inline-block;
+    text-decoration: none;
+}
+.summertitle1 a:hover{
+    color: #FFCE64;
+
+}
+.list{
+    padding-right: 12em;
+    padding-bottom: 2em;
+}
+
+
+.summertitle{
+    background-color:#FFCE64;
+    font-size: 100px;
+    padding: .5em .5em;
+    border-radius: 0px 30px 0 0;
+}
+
+.summertitle2{
+    color: #C6890A;
+    font-size: 100px;
+    padding: .5em .5em;
+    
+}
+.steps{
+    color: #FFF9E9;
+    padding-left: 2em;
+}
+
+
+/*PARALLAX EFFECT*/
+    
+.recipe{
+    height: 225.25vh;
+    display: flex;
+} 
+.dessert{
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    margin: 0!important;
+}
+.dessert img{
+    width: 100%;
+    height: 100%;
+    
+}
+.recipe1{
+    width: 60%;
+    height: 100%;
+}
+.recipe1 div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+ 
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

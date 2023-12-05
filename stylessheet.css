@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0
+}
+
+body{
+    font-family: "Caprasimo";
+    background-color:#FFF9EA;
+}
+.home{
+    background-image: url(images/frosting.gif);
+    background-size: cover;
+}
+
+h1{
+    font-family: "Caprasimo";
+    color: #FFB71A;
+    font-size: 180px;
+    
+}
+.index{
+    font-family: "Caprasimo";
+    font-size: 60px;
+    color: #7BC625;
+}
+p{
+    font-family: "Noto Sans";
+    line-height: 25px;
+
+}
+h2{
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color:#FFF9EA;
+}
+/*button*/
+
+.button{
+    font-family: "Caprasimo";
+	background-color: #73AAFA;
+	color: #FFF9EA;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 30px;
+    text-decoration: none;
+    border:4px solid #2963BA;
+}
+
+.button:hover {
+    background-color: #2963BA;
+    color: #FCEADB;
+
+}
+
+blockquote{
+    padding-top: 15em;
+    padding-bottom: 3em;
+    padding-left: 5em;
+    line-height: 100px;
+}
+a{
+    padding-left: 5em;
+    padding-bottom: 1em;
+}
+/*LOGO*/
+img[src="logos/yellowlego.png"] {
+    width: 5%;
+    height: 5%;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+/*fullscreen nav*/
+.overlay{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top:0;
+    background-color:#FFF9EA;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content{
+    position: relative;
+    top:10%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.overlay a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 60px;
+    color: #FFB71A;
+    display: block;
+    transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus{
+    color:#DB7608;
+}
+.overlay .closebtn{
+    position:absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;}
+}
+
+.background{
+    background-color: black;
+    opacity: .5;
+}
+
+/*********CONTACT**********/
+form{
+    padding-top: 1em;
+}
+input[type=text] {
+  width: 100%;
+  background-color: #FFF9EA;
+  color: #4C7B16;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: 2px solid #7BC626;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+
+input[type=submit] {
+  width: 30%;
+  background-color: #73AAFA;
+  color: #FFF9EA;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 3px solid #2963BA;
+  border-radius: 100px;
+  cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color:#2963BA;
+    border: 3px solid #73AAFA;
+}
+
+/*******CONTACT & ABOUT PAGE********/
+
+.blue{
+    color: #73A9FA;
+    font-size:100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+#about{
+    margin: 0 30%;
+}
+.textbox{
+    background-color: #4C7B16;
+    color: #FFF9E9;
+    margin: 30% 0;
+    
+    padding:4em 8em;
+    border-radius: 30px;
+    border:4px solid #7BC626;
+}
+.textbox p{
+    padding: 1em 0;
+    font-size: 12px;
+}
+
+.textbox1{
+    background-color: #4C7B16;
+    color: #FFF9E9;
+    margin: 0 25%;
+    margin-top: 5%;
+    padding:6em 8em;
+    padding-right: 14em;
+    border-radius: 30px;
+    border:4px solid #7BC626;
+}
+.textbox1 p{
+    padding: 1em 0;
+    font-size: 12px;
+}
+.textbox2{
+    color: #FFF9E9;
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    padding: 8em 0em;
+    margin: 0 10%;
+}
+.textbox2
+
+.container{
+    margin: 2em;
+    padding: 5.5em 0em 5.5em 4em;
+    background-color: #4C7B16;
+    padding-right: 10em;
+    border-radius: 30px;
+    border:4px solid #7BC626;
+
+}
+.container h2{
+    font-size: 32px;
+    padding-bottom: .5em;
+}
+
+.info{
+    font-size: 20px;
+    padding-top: 1em;
+}
+
+/*about pics*/
+
+#hummingbird{
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    right: 15em;
+    top: 18em;
+    transform: rotate(10deg);
+}
+
+#tres2{
+    width: 20%;
+    height: 43%;
+    position: absolute;
+    left: 10em;
+    bottom: 10em;
+    transform: rotate(350deg);
+
+}
+
+/*contact pics*/
+
+#raisin{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 12em;
+    top: 25em;
+    transform: rotate(23deg)
+}
+#tres{
+    width: 20%;
+    height: 45%;
+    position: absolute;
+    left: 15em;
+    bottom: -15em;
+    transform: rotate(350deg)
+
+}
+#humm{
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    right: 3em;
+    bottom: -35em;
+    transform: rotate(15deg)
+
+}
+/*footer*/
+footer{
+    margin: 0;
+    border:4px solid #DB7608;
+    background-color: #FFB71A;
+    align-items: center;
+    height: 80px;
+}
+footer img{
+    width: 3%;
+    height: 3%;
+    padding: .5em 1em;
+    float: right;
+}
+.footerlogo{
+    padding: .5em .5em;
+    font-size: 40px;
+    color: #FFF9EA;
+    align-items: center;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
